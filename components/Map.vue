@@ -16,7 +16,7 @@
       declutter: false,
       source: new VectorTileSource({
         format: new MVT(),
-        url: 'http://localhost:8000/mvt/osm_buildings/{z}/{x}/{y}.mvt',
+        url: 'http://localhost:8000/api/v1/mvt/osm_buildings/{z}/{x}/{y}.mvt',
       }),
       renderMode: 'vector',
       style: new Style({
@@ -55,7 +55,7 @@
 #map {
   position: absolute;
   height: 83%;
-  width: 50%;
+  width: 90%;
 }
 
 </style>
